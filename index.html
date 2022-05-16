@@ -24,12 +24,15 @@
                <div class="col">
                   <div class="col-sm-4 col-md-4 col-lg-4">
                      <div class="photo">
-                        <img src="https://placehold.co/550x550" alt="Profile picture">
+                        <img src="" alt="Profile picture" id="photo">
                      </div>
                   </div>
                   <div class="col-sm-8 col-md-8 col-lg-8">
                      <div class="profile-name">
-                        <h1>firstName, lastName</h1>
+                        <h1>
+                           <span id="first-name"></span>
+                           <span id="last-name"></span>
+                        </h1>
                         <div class="d-block">
                            <div class="item">
                               <h3 class="profile-title">Occupation</h3>
@@ -37,8 +40,8 @@
                         </div>
                      </div>
                      <div class="profile-links">
-                        <a href="#"><i class="fa fa-phone">&nbsp;Contact Phone: </i></a>
-                        <a href="#"><i class="fa fa-mobile">&nbsp;Work Phone: </i></a>
+                        <a><i class="fa fa-phone">&nbsp;Phone: <span id="phone"></span></i></a>
+                        <a><i class="fa fa-mobile">&nbsp;Cell: <span id="cell"></span></i></a>
                      </div>
                   </div>
                </div>
@@ -49,7 +52,7 @@
                <div class="col-sm-6 col-md-6 col-lg-6">
                   <div class="profile-about">
                      <div class="profile-heading">
-                        <h3>About<span>&nbsp;Profile</span></h3>
+                        <h3>About<span id="first-name">&nbsp;Myself</span></h3>
                      </div>
                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto doloremque incidunt tempore quos earum! Laudantium.</p>
                   </div>
@@ -58,29 +61,38 @@
                   <div class="profile-content">
                      <li>
                         <span class="title">Gender: </span>
-                        <span class="value">null</span>
+                        <span class="value" id="gender"></span>
                      </li>
                      <li>
                         <span class="title">City: </span>
-                        <span class="value">Coppel</span>
+                        <span class="value" id="city"></span>
                      </li>
                      <li>
                         <span class="title">State: </span>
-                        <span class="value">Hawaii, United States</span>
+                        <span class="value" id="state"></span>
+                     </li>
+                     <li>
+                        <span class="title">Country: </span>
+                        <span class="value" id="country"></span>
                      </li>
                      <li>
                         <span class="title">Postcode: </span>
-                        <span class="value">42794</span>
+                        <span class="value" id="postal-code"></span>
                      </li>
                      <li>
                         <span class="title">Email: </span>
-                        <span class="value">+0123 123 456 789</span>
+                        <span class="value" id="email-web"></span>
                      </li>
                   </div>
                </div>
             </div>
          </section>
+         <div class="generate-info">
+            <a class="btn btn-success" id="random-user">Random Profile</a>
+         </div>
       </div>
    </main>
+   <script src="js/script.js"></script>
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 </body>
 </html>
