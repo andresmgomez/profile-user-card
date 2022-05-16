@@ -72,6 +72,10 @@ img {
    text-align: center;
 }
 
+/************************
+/* Profile Header Card
+/************************/
+
 .profile-header {
    background-color: rgba(62, 206, 137, 0.80);
    box-shadow: 0 15px 25px 0 rgba(0, 0, 0, 0.2);
@@ -110,7 +114,44 @@ img {
    font-weight: 400;
 }
 
-.profile-links i {
+.profile-links a i {
+   line-height: 30px;
    font-size: 20px;
+}
+
+/************************
+/* Profile Info Card
+/************************/
+.profile-info {
+   padding: 35px;
+   text-align: left;
+}
+
+.profile-heading h3 {
+   margin: 5px 25px;
+   font-size: 21px;
+   color: #232121;
+}
+
+.profile-heading span {
+   color: #3ece89;
+}
+
+.profile-content {
+   margin-top: 30px;
+   list-style: none;
+}
+
+.profile-content li {
+   margin: 6px 0;
+}
+
+.profile-content li .title {
+   min-width: 120px;
+   padding-left: 100px;
+}
+
+.profile-content li .value {
+   color: #1dab64;
 }
 
