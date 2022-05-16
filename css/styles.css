@@ -1,6 +1,6 @@
-
 	
 @import "https://fonts.googleapis.com/css?family=Roboto:100,300,300i,400,400i,700,700i|Montserrat:300,400,500,600,700";
+@import './webfonts.css';
 
 /**********************
 /* Global Styles
@@ -24,8 +24,7 @@ body {
    font-size: 15px;
    line-height: 1.6em;
    font-family: 'Roboto', Helvetica, sans-serif;
-   background: #3ece89;
-   color: #f5f5f5;
+   background: #f5f5f5;
 }
 
 a {
@@ -65,16 +64,53 @@ img {
 /* Utility Classes
 /************************/
 .card-wrapper {
-   text-align: center;
-   padding-top: 50px;
-}
-
-.card-profile {
    position: relative;
    margin: 0 auto;
+   padding-top: 50px;
    max-width: 750px;
-   background-color: rgba(255,255, 255, 0.75);
-   border:1px solid #3ece89;
-   border-radius: 15px;
-   box-shadow: 0 15px 25px 0 rgba(255, 255, 255, 0.2);
+   height: 100%;
+   text-align: center;
 }
+
+.profile-header {
+   background-color: rgba(62, 206, 137, 0.80);
+   box-shadow: 0 15px 25px 0 rgba(0, 0, 0, 0.2);
+   border-radius: 15px;
+}
+
+.profile-header img{
+   margin: 30px 0 0 10px;
+   width: 280px;
+   height: 200px;
+}
+
+.profile-name h1 {
+   margin: 30px 0 0;
+   font-size: 45px;
+   color: #f5f5f5;
+   font-weight: 700;
+}
+
+.profile-title {
+   margin: 0;
+   font-size: 18p;
+   color: #fff;
+}
+
+.profile-header .profile-links {
+   margin: 30px auto;
+}
+
+.profile-links a {
+   display: block;
+   margin: 5px auto;
+   padding-right: 200px;
+   color: #f5f5f5;
+   font-size: 18px;
+   font-weight: 400;
+}
+
+.profile-links i {
+   font-size: 20px;
+}
+
