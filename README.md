@@ -1,6 +1,6 @@
 ## Random Generated Profile
 
-An html5 web page that generates a random profile user. This project will be upgraded to latest versions of Bootstrap and Fontawesome.
+An html5 web page that generates a random profile user. This project will be upgraded to latest versions of Bootstrap and FontAwesome.
 
 ### Build with
 
