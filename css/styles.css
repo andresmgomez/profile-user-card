@@ -59,15 +59,21 @@ img {
    border: 0;
 }
 
+
 /************************
 /* Utility Classes
 /************************/
-.card-wrapper {
+
+.main-wrapper {
+   width: 100%;
+   height: auto;
    position: relative;
+}
+
+.card-container {
    margin: 0 auto;
+   max-width: 1032px;
    padding-top: 50px;
-   max-width: 850px;
-   height: 100%;
    text-align: center;
 }
 
@@ -76,6 +82,7 @@ img {
 /************************/
 
 .profile-header {
+   margin: 20px 50px;
    background-color: rgba(62, 206, 137, 0.80);
    box-shadow: 0 15px 25px 0 rgba(0, 0, 0, 0.2);
    border-radius: 15px;
@@ -125,12 +132,13 @@ img {
 /* Profile Info Card
 /************************/
 .profile-info {
-   padding: 35px;
+   margin-left: 100px;
+   padding: 30px 0 50px 0;
    text-align: left;
 }
 
 .profile-heading h3 {
-   margin: 5px 25px;
+   margin: 20px auto;
    font-size: 21px;
    color: #232121;
 }
@@ -149,7 +157,6 @@ img {
 }
 
 .profile-content li .title {
-   min-width: 150px;
    padding-left: 50px;
 }
 
